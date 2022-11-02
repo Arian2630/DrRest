@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'DrRest'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EF3CE7A497C44E2DABD8926263AECB3D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_750CE7DB2ABD44DC8B971E94C3ECF8C5 }}
           package: .
