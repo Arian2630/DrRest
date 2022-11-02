@@ -19,7 +19,7 @@ namespace MusicTest
             //Arrange
             MusicManager _manager = new MusicManager();
             //Act
-            int result = _manager.GetAll().Count;
+            int result = _manager.GetAll(null).Count;
             //Assert
             Assert.AreEqual(5, result);
         }
